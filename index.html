@@ -1,0 +1,1133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PharmaClick - Online Pharmacy Delivery</title>
+    <meta name="description" content="PharmaClick is a web-based online pharmacy platform that lets you order medicines, vitamins, and health essentials online with fast doorstep delivery.">
+    <meta name="keywords" content="online pharmacy, medicine delivery, buy medicine online, PharmaClick, vitamins, prescription delivery">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph tags: control how the site looks when shared on social media / search previews -->
+    <meta property="og:title" content="PharmaClick - Online Pharmacy Delivery">
+    <meta property="og:description" content="Order medicines online and get them delivered straight to your doorstep.">
+    <meta property="og:type" content="website">
+
+</head>
+
+
+<body>
+
+
+    <!-- NAVBAR -->
+
+ <nav class="navbar">
+        <!-- LOGO TRIGGER: Forcefully hides popup overlays and scrolls straight back home -->
+    <a href="javascript:void(0);" onclick="showHome()" class="logo">
+        <div class="medical-logo">
+            <div class="horizontal"></div>
+            <div class="vertical"></div>
+            <span>+</span>
+        </div>
+        PharmaClick
+    </a>
+    
+    <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+     <main>
+
+        
+ <!-- 1. PREMIUM HOME HERO SECTION -->
+<section id="home" style="min-height: 100vh; position: relative; display: flex; align-items: center; justify-content: center; text-align: center; overflow: hidden; background-image: url('images/side-panel.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">    <div style="position: absolute; inset: 0; background: linear-gradient(rgba(35, 12, 24, 0.62), rgba(20, 7, 14, 0.72));"></div>
+    
+    <div style="position: relative; z-index: 2; width: 90%; max-width: 1000px; margin-top: 50px;">
+        <h3 style="font-size: 24px; font-weight: bold; margin-bottom: 45px; color: white;">Deliver Medicine Fast!</h3>
+        <h1 style="font-size: 64px; line-height: 1; font-weight: bold; margin-bottom: 38px; letter-spacing: -2px; color: white;">PharmaClick</h1>
+        <p style="font-size: 17px; line-height: 1.45; font-weight: bold; color: white;">A web-based online pharmacy platform that allows users to conveniently order medicines online and have them delivered directly to their doorstep.</p>
+        
+        <a href="javascript:void(0);" onclick="showSignup()" class="click-button" style="display: inline-flex; align-items: center; justify-content: center; margin-top: 52px; width: 190px; height: 58px; border-radius: 16px; background: #fff5f6; color: #b49aa7; text-decoration: none; font-size: 24px; font-weight: bold; cursor: pointer; border: none; box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25); transition: 0.2s;">Click Here!</a>
+    </div>
+</section>
+
+       <!-- 2. SERVICES SECTION ("Click. Order. Delivered.") -->
+<section id="services" style="scroll-margin-top: 80px; padding: 120px 0 60px 0; background: #faf6f7; position: relative;">
+    <div style="display: flex; align-items: center; max-width: 1140px; margin: 0 auto; padding: 0 24px; gap: 80px;">
+        
+        <!-- Left Side: Landscape Image with Cloud -->
+        <div style="flex: 1; display: flex; justify-content: center;">
+            <div style="width: 100%; max-width: 460px; aspect-ratio: 1.15; background: linear-gradient(180deg, #fff3f6 0%, #f4e3e8 100%); border-radius: 30px; padding: 40px; box-shadow: 0 20px 40px rgba(117, 82, 96, 0.06); border: 1px solid rgba(117, 82, 96, 0.08); display: flex; flex-direction: column; justify-content: flex-end; position: relative; overflow: hidden;">
+                <div style="position: absolute; inset: 0; opacity: 0.15; background-image: radial-gradient(#755260 1.5px, transparent 1.5px); background-size: 24px 24px;"></div>
+                
+                <svg viewBox="0 0 400 260" style="width: 100%; height: auto; position: relative; z-index: 2;">
+                    <ellipse cx="200" cy="225" rx="160" ry="12" fill="#e5d0d6" opacity="0.6"/>
+                    <ellipse cx="270" cy="225" rx="55" ry="6" fill="#d0b4bd"/>
+                    <rect x="50" y="50" width="130" height="170" rx="16" fill="white" filter="drop-shadow(0 8px 16px rgba(0,0,0,0.03))"/>
+                    <rect x="50" y="50" width="130" height="35" rx="12" fill="#755260"/>
+                    <rect x="50" y="70" width="130" height="15" fill="#755260"/>
+                    <rect x="70" y="105" width="40" height="40" rx="6" fill="#fdecef"/>
+                    <rect x="125" y="105" width="45" height="40" rx="6" fill="#fdecef"/>
+                    <rect x="70" y="165" width="95" height="55" rx="4" fill="#eedbe2" opacity="0.5"/>
+                    <rect x="107" y="60" width="16" height="5" rx="2" fill="white"/>
+                    <rect x="112.5" y="54.5" width="5" height="16" rx="2" fill="white"/>
+                    <g transform="translate(15, 0)">
+                        <path d="M190,125 L275,125 Q295,125 300,140 L315,165 Q325,180 325,195 L325,215 Q325,220 315,220 L190,220 Z" fill="#b18e9e"/>
+                        <path d="M275,125 L190,125 L190,220 L275,220 Z" fill="#9c7587"/>
+                        <path d="M275,135 L290,135 Q302,135 306,148 L315,168 L275,168 Z" fill="#fdecef"/>
+                        <rect x="202" y="145" width="55" height="40" rx="8" fill="white" opacity="0.15"/>
+                        <path d="M190,185 L318,185 L313,197 L190,197 Z" fill="white" opacity="0.9"/>
+                        <circle cx="215" cy="220" r="18" fill="#180d13"/>
+                        <circle cx="215" cy="220" r="8" fill="#eedbe2"/>
+                        <circle cx="290" cy="220" r="18" fill="#180d13"/>
+                        <circle cx="290" cy="220" r="8" fill="#eedbe2"/>
+                    </g>
+                </svg>
+            </div>
+        </div>
+        
+        <!-- Right Side: Content Text -->
+        <div style="flex: 1; color: #180d13;">
+            <span style="background: #eedbe2; color: #755260; padding: 6px 14px; border-radius: 50px; font-size: 11px; font-weight: 800; letter-spacing: 1.5px; text-transform: uppercase;">Why Choose PharmaClick</span>
+            <h2 style="font-size: 46px; font-weight: 900; margin: 20px 0 25px 0; color: #180d13; line-height: 1.15; letter-spacing: -1.5px;">Click. Order. Delivered.</h2>
+            <p style="margin-bottom: 24px; line-height: 1.7; font-size: 16.5px; color: #5a4b51;">PharmaClick was created to make essential healthcare accessible, safe, and efficient for everyone. We connect customers directly with partnered pharmacies, making medicine easily and safely procured.</p>
+            <p style="line-height: 1.7; font-size: 16.5px; color: #5a4b51;">Whether you need over-the-counter essentials or prescription refills, our seamless web platform ensures reasonable pricing and fast delivery without the hassle of long lines.</p>
+        </div>
+    </div>
+</section>
+
+<section id="services" style="scroll-margin-top: 80px; padding: 80px 0 140px 0; background: white; border-top: 1px solid #f0f0f0;">
+    <div style="display: flex; align-items: center; max-width: 1140px; margin: 0 auto; padding: 0 24px; gap: 80px;">
+        
+        <!-- Left Side: Content Text & List -->
+        <div style="flex: 1; color: #180d13;">
+            <span style="background: #eedbe2; color: #755260; padding: 6px 14px; border-radius: 50px; font-size: 11px; font-weight: 800; letter-spacing: 1.5px; text-transform: uppercase;">About us</span>
+            <h2 style="font-size: 46px; font-weight: 900; margin: 20px 0 25px 0; color: #180d13; line-height: 1.15; letter-spacing: -1.5px;">Fast, Reliable Healthcare Delivered to Your Doorstep</h2>
+            <p style="margin-bottom: 35px; line-height: 1.7; font-size: 16.5px; color: #5a4b51;">Pharmaclick aims to access essential healthcare supplies by eliminating physical barriers like long pharmacy waiting lines, and traveling alone.</p>
+            
+            <ul style="list-style: none; display: flex; flex-direction: column; gap: 18px; font-size: 16px; font-weight: 700; color: #2e2227;">
+                <li style="display: flex; align-items: center; gap: 16px;">
+                    <span style="display: inline-flex; align-items: center; justify-content: center; width: 28px; height: 28px; border-radius: 50%; background: #fdecef; color: #755260; font-size: 12px; font-weight: 900; border: 1px solid rgba(117,82,96,0.15);">✓</span> 
+                    Easy prescription uploads
+                </li>
+                <li style="display: flex; align-items: center; gap: 16px;">
+                    <span style="display: inline-flex; align-items: center; justify-content: center; width: 28px; height: 28px; border-radius: 50%; background: #fdecef; color: #755260; font-size: 12px; font-weight: 900; border: 1px solid rgba(117,82,96,0.15);">✓</span> 
+                    Express local doorstep delivery
+                </li>
+                <li style="display: flex; align-items: center; gap: 16px;">
+                    <span style="display: inline-flex; align-items: center; justify-content: center; width: 28px; height: 28px; border-radius: 50%; background: #fdecef; color: #755260; font-size: 12px; font-weight: 900; border: 1px solid rgba(117,82,96,0.15);">✓</span> 
+                    Verified partner pharmacies
+                </li>
+                <li style="display: flex; align-items: center; gap: 16px;">
+                    <span style="display: inline-flex; align-items: center; justify-content: center; width: 28px; height: 28px; border-radius: 50%; background: #fdecef; color: #755260; font-size: 12px; font-weight: 900; border: 1px solid rgba(117,82,96,0.15);">✓</span> 
+                    Flexible payment options (including Cash on Delivery)
+                </li>
+                <li style="display: flex; align-items: center; gap: 16px;">
+                    <span style="display: inline-flex; align-items: center; justify-content: center; width: 28px; height: 28px; border-radius: 50%; background: #fdecef; color: #755260; font-size: 12px; font-weight: 900; border: 1px solid rgba(117,82,96,0.15);">✓</span> 
+                    Reliable customer support
+                </li>
+            </ul>
+        </div>
+        
+        <!-- Right Side: Trust Shield Vector Badge -->
+        <div style="flex: 1; display: flex; justify-content: flex-end;">
+            <div style="width: 100%; max-width: 400px; aspect-ratio: 0.9; background: linear-gradient(135deg, #ffffff 0%, #fffbfb 100%); border-radius: 30px; padding: 40px; box-shadow: 0 30px 60px rgba(117, 82, 96, 0.08); border: 1px solid rgba(117, 82, 96, 0.06); display: flex; align-items: center; justify-content: center; position: relative;">
+                <circle cx="200" cy="180" r="110" fill="#fdecef" opacity="0.7"/>
+                <svg viewBox="0 0 200 200" style="width: 75%; height: auto; position: relative; z-index: 2;">
+                    <path d="M40,40 Q100,25 160,40 L160,110 Q160,160 100,185 Q40,160 40,110 Z" fill="#755260" filter="drop-shadow(0 12px 24px rgba(117,82,96,0.25))"/>
+                    <path d="M52,50 Q100,37 148,50 L148,110 Q148,150 100,172 Q52,150 52,110 Z" fill="white"/>
+                    <rect x="86" y="70" width="28" height="80" rx="6" fill="#755260"/>
+                    <rect x="60" y="96" width="80" height="28" rx="6" fill="#755260"/>
+                    <path d="M145,65 L148,72 L155,75 L148,78 L145,85 L142,78 L135,75 L142,72 Z" fill="#b18e9e"/>
+                    <path d="M55,135 L57,140 L62,142 L57,144 L55,149 L53,144 L48,142 L53,140 Z" fill="#b18e9e"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ==========================================================================
+   3. ABOUT SECTION (GRID WORK OVERVIEW - NESTED SAFELY DOWN THE PAGE)
+   ========================================================================== -->
+<section id="about" style="scroll-margin-top: 80px; padding: 100px 0; background: white; text-align: center; font-family: Arial, sans-serif;">
+    
+    <!-- Section Header Elements -->
+    <span style="background: #c2a1ae; color: #fff; padding: 6px 20px; border-radius: 20px; font-size: 14px; font-weight: bold; text-transform: capitalize; display: inline-block; margin-bottom: 20px;">What We Do</span>
+    <h2 style="font-size: 38px; color: #361e29; font-weight: bold; margin-bottom: 50px; line-height: 1.3;">We Provide Local<br>Services</h2>
+
+    <!-- Responsive Card Grid Wrapper Framework -->
+    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 30px; max-width: 1000px; margin: 0 auto 70px auto; padding: 0 20px;">
+        
+        <!-- Grid Item 1: Prescription Ordering -->
+        <div style="background: #f5ecee; border-radius: 30px; padding: 50px 40px; text-align: left; min-height: 250px; display: flex; flex-direction: column; justify-content: center;">
+            <h3 style="font-size: 24px; color: #4d2d3a; font-weight: bold; margin-bottom: 15px; line-height: 1.2;">Prescription<br>Ordering</h3>
+            <p style="font-size: 14px; color: #705862; line-height: 1.5; font-weight: 500;">Upload valid prescriptions to order daily maintenance drugs or short-term treatments.</p>
+        </div>
+
+        <!-- Grid Item 2: Over-the-Counter Essentials -->
+        <div style="background: #563541; border-radius: 30px; padding: 50px 40px; text-align: left; min-height: 250px; display: flex; flex-direction: column; justify-content: center;">
+            <h3 style="font-size: 24px; color: white; font-weight: bold; margin-bottom: 15px; line-height: 1.2;">Over-the-Counter<br>Essentials</h3>
+            <p style="font-size: 14px; color: #d0bdc4; line-height: 1.5; font-weight: 500;">Browse medicines for quick delivery.</p>
+        </div>
+
+        <!-- Grid Item 3: Delivery Service -->
+        <div style="background: #563541; border-radius: 30px; padding: 50px 40px; text-align: left; min-height: 250px; display: flex; flex-direction: column; justify-content: center;">
+            <h3 style="font-size: 24px; color: white; font-weight: bold; margin-bottom: 15px; line-height: 1.2;">Delivery Service</h3>
+            <p style="font-size: 14px; color: #d0bdc4; line-height: 1.5; font-weight: 500;">Scheduled delivery options for urgent health needs within local service areas.</p>
+        </div>
+
+        <!-- Grid Item 4: Order Tracking -->
+        <div style="background: #563541; border-radius: 30px; padding: 50px 40px; text-align: left; min-height: 250px; display: flex; flex-direction: column; justify-content: center;">
+            <h3 style="font-size: 24px; color: white; font-weight: bold; margin-bottom: 15px; line-height: 1.2;">Order Tracking</h3>
+            <p style="font-size: 14px; color: #d0bdc4; line-height: 1.5; font-weight: 500;">Live status tracking so you know exactly when your medication will arrive.</p>
+        </div>
+    </div>
+
+    <!-- Bottom Action Ribbon Panel (Don't Hesitate to Contact) -->
+    <div style="background: #b194a0; padding: 45px 20px; text-align: center;">
+        <span style="color: #4a2f3b; font-size: 16px; font-weight: bold; display: block; margin-bottom: 10px;">Need Any Help</span>
+        <h2 style="font-size: 42px; color: #361e29; font-weight: 900; margin-bottom: 25px; letter-spacing: -0.5px;">Don't Hesitate to Contact<br>our Team</h2>
+        <a href="#contact" style="display: inline-block; background: #fff5f6; color: #4a2f3b; text-decoration: none; padding: 14px 45px; border-radius: 50px; font-size: 16px; font-weight: bold; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: 0.2s;">Contact Us</a>
+    </div>
+
+</section>
+
+<!-- ==========================================================================
+   4. CONTACT SECTION (GET IN TOUCH - INFO + FORM)
+   ========================================================================== -->
+<section id="contact" style="scroll-margin-top: 80px; padding: 110px 0 130px 0; background: linear-gradient(180deg, #fff8f9 0%, #faf1f3 100%); position: relative; overflow: hidden; font-family: Arial, sans-serif;">
+
+    <!-- Decorative background blobs -->
+    <div style="position: absolute; top: -120px; right: -120px; width: 380px; height: 380px; border-radius: 50%; background: radial-gradient(circle, rgba(238,219,226,0.9) 0%, rgba(238,219,226,0) 70%); pointer-events: none;"></div>
+    <div style="position: absolute; bottom: -140px; left: -140px; width: 420px; height: 420px; border-radius: 50%; background: radial-gradient(circle, rgba(198,158,175,0.35) 0%, rgba(198,158,175,0) 70%); pointer-events: none;"></div>
+
+    <div style="max-width: 1140px; margin: 0 auto; padding: 0 24px; position: relative; z-index: 2;">
+
+        <!-- Section Header -->
+        <div style="text-align: center; margin-bottom: 60px;">
+            <span style="background: #c2a1ae; color: #fff; padding: 6px 20px; border-radius: 20px; font-size: 14px; font-weight: bold; text-transform: capitalize; display: inline-block; margin-bottom: 20px;">Get In Touch</span>
+            <h2 style="font-size: 38px; color: #361e29; font-weight: bold; margin-bottom: 18px; line-height: 1.3;">We'd Love to Hear<br>From You</h2>
+            <p style="max-width: 560px; margin: 0 auto; font-size: 16px; color: #705862; line-height: 1.6;">Questions about an order, a prescription, or partnering with us? Send a message and our team will get back to you shortly.</p>
+        </div>
+
+        <!-- Content Grid: Info + Form -->
+        <div style="display: flex; align-items: stretch; gap: 50px; flex-wrap: wrap;">
+
+            <!-- Left: Contact Info -->
+            <div style="flex: 1; min-width: 280px; display: flex; flex-direction: column; gap: 22px;">
+
+                <!-- Info Card: Address -->
+                <div style="background: #ffffff; border-radius: 22px; padding: 28px 26px; display: flex; align-items: flex-start; gap: 18px; box-shadow: 0 10px 30px rgba(117, 82, 96, 0.07); border: 1px solid rgba(117, 82, 96, 0.06);">
+                    <div style="min-width: 52px; height: 52px; border-radius: 16px; background: #fdecef; display: flex; align-items: center; justify-content: center; font-size: 22px;">📍</div>
+                    <div>
+                        <h3 style="font-size: 17px; color: #361e29; font-weight: bold; margin-bottom: 6px;">Our Address</h3>
+                        <p style="font-size: 14.5px; color: #705862; line-height: 1.6; margin: 0;">123 Rizal Avenue, Lucena City,<br>quezon, Philippines</p>
+                    </div>
+                </div>
+
+                <!-- Info Card: Phone -->
+                <div style="background: #ffffff; border-radius: 22px; padding: 28px 26px; display: flex; align-items: flex-start; gap: 18px; box-shadow: 0 10px 30px rgba(117, 82, 96, 0.07); border: 1px solid rgba(117, 82, 96, 0.06);">
+                    <div style="min-width: 52px; height: 52px; border-radius: 16px; background: #fdecef; display: flex; align-items: center; justify-content: center; font-size: 22px;">📞</div>
+                    <div>
+                        <h3 style="font-size: 17px; color: #361e29; font-weight: bold; margin-bottom: 6px;">Call Us</h3>
+                        <p style="font-size: 14.5px; color: #705862; line-height: 1.6; margin: 0;">(054) 123-4567<br>Mon – Sat, 8:00 AM – 8:00 PM</p>
+                    </div>
+                </div>
+
+                <!-- Info Card: Email -->
+                <div style="background: #ffffff; border-radius: 22px; padding: 28px 26px; display: flex; align-items: flex-start; gap: 18px; box-shadow: 0 10px 30px rgba(117, 82, 96, 0.07); border: 1px solid rgba(117, 82, 96, 0.06);">
+                    <div style="min-width: 52px; height: 52px; border-radius: 16px; background: #fdecef; display: flex; align-items: center; justify-content: center; font-size: 22px;">✉️</div>
+                    <div>
+                        <h3 style="font-size: 17px; color: #361e29; font-weight: bold; margin-bottom: 6px;">Email Us</h3>
+                        <p style="font-size: 14.5px; color: #705862; line-height: 1.6; margin: 0;">support@pharmaclick.com</p>
+                    </div>
+                </div>
+
+                <!-- Social Row -->
+                <div style="background: #563541; border-radius: 22px; padding: 26px; display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 4px;">
+                    <span style="color: #fff; font-size: 14.5px; font-weight: bold;">Follow Us</span>
+                    <div style="display: flex; gap: 10px;">
+                        <a href="javascript:void(0);" style="width: 40px; height: 40px; border-radius: 50%; background: rgba(255,255,255,0.12); display: flex; align-items: center; justify-content: center; color: #fff; text-decoration: none; font-size: 16px; font-weight: bold; transition: 0.2s;" onmouseover="this.style.background='#fff5f6'; this.style.color='#563541';" onmouseout="this.style.background='rgba(255,255,255,0.12)'; this.style.color='#fff';">f</a>
+                        <a href="javascript:void(0);" style="width: 40px; height: 40px; border-radius: 50%; background: rgba(255,255,255,0.12); display: flex; align-items: center; justify-content: center; color: #fff; text-decoration: none; font-size: 14px; font-weight: bold; transition: 0.2s;" onmouseover="this.style.background='#fff5f6'; this.style.color='#563541';" onmouseout="this.style.background='rgba(255,255,255,0.12)'; this.style.color='#fff';">in</a>
+                        <a href="javascript:void(0);" style="width: 40px; height: 40px; border-radius: 50%; background: rgba(255,255,255,0.12); display: flex; align-items: center; justify-content: center; color: #fff; text-decoration: none; font-size: 14px; font-weight: bold; transition: 0.2s;" onmouseover="this.style.background='#fff5f6'; this.style.color='#563541';" onmouseout="this.style.background='rgba(255,255,255,0.12)'; this.style.color='#fff';">ig</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right: Contact Form Card -->
+            <div style="flex: 1.3; min-width: 320px; background: #fdecef; border-radius: 30px; padding: 46px 44px; box-shadow: 0 20px 45px rgba(117, 82, 96, 0.10);">
+                <h3 style="font-size: 24px; color: #361e29; font-weight: bold; margin-bottom: 6px;">Send a Message</h3>
+                <p style="font-size: 14px; color: #705862; margin-bottom: 28px;">We usually reply within 24 hours.</p>
+
+                <form id="contact-form" onsubmit="submitContactForm(event)">
+                    <div style="display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 18px;">
+                        <div style="flex: 1; min-width: 200px;">
+                            <label style="display: block; font-size: 13.5px; font-weight: bold; color: #4d2d3a; margin-bottom: 7px;">Full Name</label>
+                            <input type="text" id="contact-name" required placeholder="Your name" style="width: 100%; height: 50px; border: 1.5px solid #d9bcc6; border-radius: 14px; background: #ffffff; outline: none; padding: 0 16px; font-size: 15px; box-sizing: border-box; transition: 0.2s;" onfocus="this.style.borderColor='#b88d9e'; this.style.boxShadow='0 0 0 3px rgba(184,141,158,0.15)';" onblur="this.style.borderColor='#d9bcc6'; this.style.boxShadow='none';">
+                        </div>
+                        <div style="flex: 1; min-width: 200px;">
+                            <label style="display: block; font-size: 13.5px; font-weight: bold; color: #4d2d3a; margin-bottom: 7px;">Email Address</label>
+                            <input type="email" id="contact-email" required placeholder="you@example.com" style="width: 100%; height: 50px; border: 1.5px solid #d9bcc6; border-radius: 14px; background: #ffffff; outline: none; padding: 0 16px; font-size: 15px; box-sizing: border-box; transition: 0.2s;" onfocus="this.style.borderColor='#b88d9e'; this.style.boxShadow='0 0 0 3px rgba(184,141,158,0.15)';" onblur="this.style.borderColor='#d9bcc6'; this.style.boxShadow='none';">
+                        </div>
+                    </div>
+
+                    <div style="margin-bottom: 18px;">
+                        <label style="display: block; font-size: 13.5px; font-weight: bold; color: #4d2d3a; margin-bottom: 7px;">Subject</label>
+                        <input type="text" id="contact-subject" required placeholder="What's this about?" style="width: 100%; height: 50px; border: 1.5px solid #d9bcc6; border-radius: 14px; background: #ffffff; outline: none; padding: 0 16px; font-size: 15px; box-sizing: border-box; transition: 0.2s;" onfocus="this.style.borderColor='#b88d9e'; this.style.boxShadow='0 0 0 3px rgba(184,141,158,0.15)';" onblur="this.style.borderColor='#d9bcc6'; this.style.boxShadow='none';">
+                    </div>
+
+                    <div style="margin-bottom: 26px;">
+                        <label style="display: block; font-size: 13.5px; font-weight: bold; color: #4d2d3a; margin-bottom: 7px;">Message</label>
+                        <textarea id="contact-message" required placeholder="Tell us how we can help..." rows="4" style="width: 100%; border: 1.5px solid #d9bcc6; border-radius: 14px; background: #ffffff; outline: none; padding: 14px 16px; font-size: 15px; font-family: Arial, sans-serif; resize: vertical; box-sizing: border-box; transition: 0.2s;" onfocus="this.style.borderColor='#b88d9e'; this.style.boxShadow='0 0 0 3px rgba(184,141,158,0.15)';" onblur="this.style.borderColor='#d9bcc6'; this.style.boxShadow='none';"></textarea>
+                    </div>
+
+                    <button type="submit" style="width: 100%; height: 56px; border: none; border-radius: 16px; background: #563541; color: #fff; font-size: 17px; font-weight: bold; cursor: pointer; box-shadow: 0 10px 25px rgba(86, 53, 65, 0.25); transition: 0.2s;" onmouseover="this.style.background='#4a2f3b';" onmouseout="this.style.background='#563541';">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ==========================================================================
+   REFERENCES SECTION
+   ========================================================================== -->
+<section id="references" style="scroll-margin-top: 80px; padding: 60px 20px 70px 20px; background: #faf6f7; text-align: center; font-family: Arial, sans-serif;">
+    <h2 style="font-size: 28px; font-weight: 900; color: #180d13; margin-bottom: 24px; letter-spacing: -1px;">References</h2>
+    <div style="max-width: 700px; margin: 0 auto; display: flex; flex-direction: column; gap: 12px; font-size: 15px;">
+        <a href="https://pin.it/6PB4itSEW" target="_blank" rel="noopener noreferrer" style="color: #a4778a; text-decoration: underline; word-break: break-all;">https://pin.it/6PB4itSEW</a>
+        <a href="https://pin.it/2bdnfgELY" target="_blank" rel="noopener noreferrer" style="color: #a4778a; text-decoration: underline; word-break: break-all;">https://pin.it/2bdnfgELY</a>
+        <a href="https://pin.it/5rdI9B2Ht" target="_blank" rel="noopener noreferrer" style="color: #a4778a; text-decoration: underline; word-break: break-all;">https://pin.it/5rdI9B2Ht</a>
+        <a href="https://pin.it/7INjO4Chj" target="_blank" rel="noopener noreferrer" style="color: #a4778a; text-decoration: underline; word-break: break-all;">https://pin.it/7INjO4Chj</a>
+    </div>
+</section>
+
+   <!-- LOGIN POPUP MODAL -->
+<section id="login-page">
+  <div class="login-container">
+    <button class="modal-close-btn" onclick="closeLogin()" style="position: absolute; top: 15px; right: 20px; background: transparent; border: none; font-size: 28px; cursor: pointer; color: #755260; z-index: 10;">&times;</button>
+    
+    <!-- Left Side: Interactive Login Inputs Block -->
+    <div class="form-side">
+      <h1>Log in to PharmaClick</h1>
+      
+      <div id="login-error-message" style="display: none; width: 100%; padding: 12px; background: #ffebee; border: 1.5px solid #ff4d4d; color: #c62828; font-weight: bold; border-radius: 14px; font-size: 14px; text-align: center; margin-bottom: 20px;">
+        ❌ Username or password is incorrect
+      </div>
+      
+      <div class="form-group">
+        <label>Username</label>
+        <input type="text" id="login-username-field" placeholder="Enter your username">
+      </div>
+
+      <div class="form-group">
+        <label>Password</label>
+        <div style="position: relative; width: 100%;">
+          <input type="password" id="login-password-field" placeholder="Enter your password" style="padding-right: 45px !important;">
+          <span id="toggle-login-password" onclick="togglePasswordVisibility('login-password-field', 'toggle-login-password')" style="position: absolute; right: 16px; top: 50%; transform: translateY(-50%); cursor: pointer; font-size: 18px; user-select: none;">👁️</span>
+        </div>
+      </div>
+
+      <button class="login-submit-button" onclick="executeLoginValidation()">Log In</button>
+      
+      <div class="divider">or</div>
+      
+      <div class="signup-footer-text">
+        Don't have an account? <a href="javascript:void(0);" onclick="showSignup()">Sign Up</a>
+      </div>
+      <div class="signup-footer-text" style="margin-top: 10px;">
+        Are you an Administrator? <a href="javascript:void(0);" onclick="showAdminLogin()">Admin Login</a>
+      </div>
+    </div>
+
+    <!-- Right Side Image Canvas -->
+    <div class="image-side"></div>
+  </div>
+</section>
+
+<!-- ADMIN LOGIN PAGE MODAL -->
+<section id="admin-login-page" style="position: fixed; inset: 0; width: 100vw; height: 100vh; z-index: 9999; display: none; align-items: center; justify-content: center; background-image: url('images/side-panel.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+  
+  <!-- Dark overlay to match Home / Sign Up design -->
+  <div style="position: absolute; inset: 0; background: linear-gradient(rgba(35, 12, 24, 0.75), rgba(20, 7, 14, 0.85)); z-index: 1;"></div>
+
+  <!-- Modal Container -->
+  <div class="login-container" style="position: relative; z-index: 2;">
+    <button class="modal-close-btn" onclick="closeAdminLogin()" style="position: absolute; top: 15px; right: 20px; background: transparent; border: none; font-size: 28px; cursor: pointer; color: #755260; z-index: 10;">&times;</button>
+    
+    <!-- LEFT SIDE: FORM -->
+    <div class="form-side">
+      <h1>Admin Login</h1>
+      
+      <div id="admin-login-error-message" style="display: none; width: 100%; padding: 12px; background: #ffebee; border: 1.5px solid #ff4d4d; color: #c62828; font-weight: bold; border-radius: 14px; font-size: 14px; text-align: center; margin-bottom: 20px;">
+        ❌ Invalid Admin Credentials
+      </div>
+      
+      <div class="form-group">
+        <label>Admin Username</label>
+        <input type="text" id="admin-username-field" placeholder="Enter admin username">
+      </div>
+
+      <div class="form-group">
+        <label>Admin Password</label>
+        <div style="position: relative; width: 100%;">
+          <input type="password" id="admin-password-field" placeholder="Enter admin password" style="padding-right: 45px !important;">
+          <span id="toggle-admin-password" onclick="togglePasswordVisibility('admin-password-field', 'toggle-admin-password')" style="position: absolute; right: 16px; top: 50%; transform: translateY(-50%); cursor: pointer; font-size: 18px; user-select: none;">👁️</span>
+        </div>
+      </div>
+
+      <button class="login-submit-button" onclick="executeAdminLogin()">Admin Log In</button>
+      
+      <div class="divider">or</div>
+      
+      <div class="signup-footer-text">
+        Back to regular login? <a href="javascript:void(0);" onclick="showLogin()">User Login</a>
+      </div>
+    </div>
+
+    <!-- RIGHT SIDE: IMAGE CANVAS (Identical to Sign Up page background) -->
+    <div class="image-side" style="background-image: url('images/side-panel.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;"></div>
+  </div>
+</section>
+
+<!-- ==========================================================================
+   HOT DEALS PAGE SECTION (#hot-page)
+   ========================================================================== -->
+<section id="hot-page" style="display: none; min-height: 100vh; padding: 120px 20px 60px 20px; background: #faf6f7; position: relative;">
+    <div style="max-width: 1140px; margin: 0 auto; text-align: center;">
+        <span style="background: #eedbe2; color: #755260; padding: 6px 14px; border-radius: 50px; font-size: 11px; font-weight: 800; letter-spacing: 1.5px; text-transform: uppercase;">Exclusive Offers</span>
+        <h1 style="font-size: 46px; font-weight: 900; margin: 20px 0 15px 0; color: #180d13; line-height: 1.15; letter-spacing: -1.5px;">Hot Deals</h1>
+        <p style="font-size: 16.5px; color: #5a4b51; max-width: 600px; margin: 0 auto 40px auto;">Browse our special discounted medications and limited-time healthcare promotions.</p>
+
+        <!-- Hot Deals Display Container (Blank state ready for content) -->
+        <div id="hot-deals-container" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 24px;">
+            <!-- Your hot deals products/cards will be populated here -->
+        </div>
+    </div>
+
+
+
+</section>
+
+    </main>
+
+
+
+  <!-- SIGNUP PAGE MODAL -->
+<section id="signup-page">
+    <div class="signup-container">
+        <!-- Close Button -->
+        <button class="modal-close-btn" onclick="closeSignup()" style="position: absolute; top: 15px; right: 20px; background: transparent; border: none; font-size: 28px; cursor: pointer; color: #755260; z-index: 10;">&times;</button>
+
+        <!-- LEFT SIDE: FORM -->
+        <div class="form-side">
+            <h1>Create Your Account</h1>
+            
+            <!-- 1. Username Field -->
+            <div class="form-group">
+                <label>Username</label>
+                <input type="text" id="username-field" placeholder="Enter your username" oninput="validateUsername()">
+                <span id="username-status" style="display: block; font-size: 13px; font-weight: bold; margin-top: 6px; color: #705862;">It needs to be 5 characters or above</span>
+            </div>
+
+            <!-- 2. Password Field -->
+            <div class="form-group">
+                <label>Password</label>
+                <div style="position: relative; width: 100%;">
+                    <input type="password" id="password-field" placeholder="Enter your password" oninput="checkPasswordStrength(); checkPasswordMatch();" style="padding-right: 45px !important;">
+                    <span id="toggle-password" onclick="togglePasswordVisibility('password-field', 'toggle-password')" style="position: absolute; right: 16px; top: 50%; transform: translateY(-50%); cursor: pointer; font-size: 18px; user-select: none;">👁️</span>
+                </div>
+                <div style="width: 100%; height: 5px; background: #e5d2d7; border-radius: 3px; margin-top: 8px; overflow: hidden; position: relative;">
+                    <div id="strength-bar" style="width: 0%; height: 100%; background: #ff4d4d; transition: all 0.3s ease;"></div>
+                </div>
+                <span id="password-status" style="display: block; font-size: 13px; font-weight: bold; margin-top: 6px; color: #705862;">Password strength: Enter password</span>
+            </div>
+
+            <!-- 3. Repeat Password Field -->
+            <div class="form-group">
+                <label>Repeat Password</label>
+                <div style="position: relative; width: 100%;">
+                    <input type="password" id="repeat-password-field" placeholder="Repeat your password" oninput="checkPasswordMatch()" style="padding-right: 45px !important;">
+                    <span id="toggle-repeat" onclick="togglePasswordVisibility('repeat-password-field', 'toggle-repeat')" style="position: absolute; right: 16px; top: 50%; transform: translateY(-50%); cursor: pointer; font-size: 18px; user-select: none;">👁️</span>
+                </div>
+                <span id="match-status" style="display: block; font-size: 13px; font-weight: bold; margin-top: 6px; color: #705862;">Please re-enter your password</span>
+            </div>
+
+            <!-- 4. Submit Button -->
+            <button class="signup-button" onclick="executeSignup()">Sign Up</button>
+            
+            <div class="divider">or</div>
+            <div class="signup-footer-text">
+                Already have an account? <a href="javascript:void(0);" onclick="closeSignup(); showLogin();">Log In</a>
+            </div>
+        </div> 
+
+        <!-- RIGHT SIDE: IMAGE -->
+        <div class="image-side" style="background-image: url('images/side-panel.jpg'); background-size: cover; background-position: center;"></div> 
+    </div>
+</section>
+
+
+<!-- ADMIN PAGE DASHBOARD (Hidden by default; displayed upon admin login) -->
+<div id="admin-page" class="admin-dashboard-container" style="display: none; min-height: 100vh; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+  
+  <!-- Sidebar -->
+  <aside class="admin-sidebar" style="width: 260px; background: #1e1e2d; color: #fff; padding: 20px; display: flex; flex-direction: column; justify-content: space-between;">
+    <div>
+      <div class="admin-sidebar-header" style="display: flex; align-items: center; gap: 10px; margin-bottom: 30px;">
+        <div class="medical-logo" style="width: 32px; height: 32px; background: #e91e63; border-radius: 8px; display: flex; align-items: center; justify-content: center;">
+          <span style="color: white; font-weight: bold; font-size: 20px;">+</span>
+        </div>
+        <h2 style="font-size: 20px; color: #fff; margin: 0;">PharmaClick</h2>
+      </div>
+
+      <nav class="admin-sidebar-menu" style="display: flex; flex-direction: column; gap: 8px;">
+        <div class="sidebar-category-label" style="font-size: 11px; color: #6c7293; font-weight: bold; margin-top: 15px; margin-bottom: 5px;">MAIN</div>
+        <!-- UPDATE Dashboard link in sidebar: -->
+       <a href="javascript:void(0);" id="sidebar-dashboard-link" onclick="showAdminDashboard()" class="sidebar-item active" style="display: flex; align-items: center; gap: 12px; color: #fff; text-decoration: none; padding: 10px 14px; border-radius: 8px; background: #2b2b40;">
+      <span class="sidebar-icon">📊</span>
+      <span>Dashboard</span>
+      </a>
+
+        <div class="sidebar-category-label" style="font-size: 11px; color: #6c7293; font-weight: bold; margin-top: 15px; margin-bottom: 5px;">MANAGEMENT</div>
+        <a href="javascript:void(0);" id="sidebar-sales-link" onclick="showAdminSales()" class="sidebar-item" style="display: flex; align-items: center; gap: 12px; color: #a2a3b7; text-decoration: none; padding: 10px 14px; border-radius: 8px;">
+        <span class="sidebar-icon">📈</span>
+        <span>Sales</span>
+        </a>
+        <a href="javascript:void(0);" id="sidebar-orders-link" onclick="showAdminOrders()" class="sidebar-item" style="display: flex; align-items: center; gap: 12px; color: #a2a3b7; text-decoration: none; padding: 10px 14px; border-radius: 8px;">
+          <span class="sidebar-icon">🛍️</span>
+          <span>Orders</span>
+        </a>
+        <a href="javascript:void(0);" id="sidebar-payments-link" onclick="showAdminPayments()" class="sidebar-item" style="display: flex; align-items: center; gap: 12px; color: #a2a3b7; text-decoration: none; padding: 10px 14px; border-radius: 8px;">
+          <span class="sidebar-icon">💳</span>
+          <span>Payments</span>
+        </a>
+        <a href="javascript:void(0);" id="sidebar-products-link" onclick="showAdminProducts()" class="sidebar-item" style="display: flex; align-items: center; gap: 12px; color: #a2a3b7; text-decoration: none; padding: 10px 14px; border-radius: 8px;">
+          <span class="sidebar-icon">📦</span>
+          <span>Products</span>
+        </a>
+      </nav>
+    </div>
+
+    <!-- Bottom Logout Action -->
+    <div class="admin-sidebar-footer">
+      <button onclick="logoutAdmin()" class="admin-logout-btn" style="width: 100%; display: flex; align-items: center; gap: 10px; background: #2b2b40; border: none; color: #f64e60; padding: 12px; border-radius: 8px; cursor: pointer; font-weight: bold;">
+        <span class="sidebar-icon">🚪</span> Log Out
+      </button>
+    </div>
+  </aside>
+
+  <!-- Main Content Area -->
+  <main class="admin-content-area" style="flex: 1; background-color: #f4f6f9; transition: background 0.3s ease;">
+    <!-- Topbar -->
+    <header class="admin-topbar" style="display: flex; justify-content: space-between; align-items: center; padding: 15px 30px; background: #ffffff; border-bottom: 1px solid #eef2f5;">
+      <h1 style="font-size: 22px; margin: 0; color: #212121;">Dashboard</h1>
+      
+      <!-- Right Controls -->
+      <div class="topbar-actions" style="display: flex; align-items: center; gap: 20px;">
+        <button id="theme-toggle-btn" onclick="toggleDarkMode()" style="background: transparent; border: none; font-size: 20px; cursor: pointer;" title="Toggle Dark Mode">
+          🌙
+        </button>
+      </div>
+    </header>
+    
+    <!-- Dashboard Cards Grid -->
+    <div style="padding: 30px;">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
+        
+        <!-- Metric Card 1: Total Invites -->
+        <div class="metric-card" style="background: #ffffff; padding: 24px; border-radius: 12px; position: relative; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <span style="color: #888; font-size: 14px; font-weight: 600;">TOTAL INVITES</span>
+            <button class="three-dots-btn" onclick="toggleMetricDropdown('invites-dropdown')" style="background: none; border: none; font-size: 20px; cursor: pointer; color: #888;">⋮</button>
+          </div>
+          <div class="dropdown-menu" id="invites-dropdown" style="display: none; position: absolute; right: 20px; top: 50px; background: #fff; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); z-index: 10;">
+            <div onclick="updateMetric('invites', 'daily')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Daily</div>
+            <div onclick="updateMetric('invites', 'monthly')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Monthly</div>
+            <div onclick="updateMetric('invites', 'yearly')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Yearly</div>
+          </div>
+          <h2 id="invites-count" style="font-size: 32px; margin: 15px 0 5px 0; color: #212121;">1,245</h2>
+          <span id="invites-period" style="font-size: 12px; color: #e91e63; font-weight: 600;">Monthly Period</span>
+        </div>
+
+        <!-- Metric Card 2: Total Orders -->
+        <div class="metric-card" style="background: #ffffff; padding: 24px; border-radius: 12px; position: relative; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <span style="color: #888; font-size: 14px; font-weight: 600;">TOTAL ORDERS</span>
+            <button class="three-dots-btn" onclick="toggleMetricDropdown('orders-dropdown')" style="background: none; border: none; font-size: 20px; cursor: pointer; color: #888;">⋮</button>
+          </div>
+          <div class="dropdown-menu" id="orders-dropdown" style="display: none; position: absolute; right: 20px; top: 50px; background: #fff; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); z-index: 10;">
+            <div onclick="updateMetric('orders', 'daily')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Daily</div>
+            <div onclick="updateMetric('orders', 'monthly')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Monthly</div>
+            <div onclick="updateMetric('orders', 'yearly')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Yearly</div>
+          </div>
+          <h2 id="orders-count" style="font-size: 32px; margin: 15px 0 5px 0; color: #212121;">8,430</h2>
+          <span id="orders-period" style="font-size: 12px; color: #e91e63; font-weight: 600;">Monthly Period</span>
+        </div>
+
+        <!-- Metric Card 3: Total Customers -->
+        <div class="metric-card" style="background: #ffffff; padding: 24px; border-radius: 12px; position: relative; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <span style="color: #888; font-size: 14px; font-weight: 600;">TOTAL CUSTOMERS</span>
+            <button class="three-dots-btn" onclick="toggleMetricDropdown('customers-dropdown')" style="background: none; border: none; font-size: 20px; cursor: pointer; color: #888;">⋮</button>
+          </div>
+          <div class="dropdown-menu" id="customers-dropdown" style="display: none; position: absolute; right: 20px; top: 50px; background: #fff; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); z-index: 10;">
+            <div onclick="updateMetric('customers', 'daily')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Daily</div>
+            <div onclick="updateMetric('customers', 'monthly')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Monthly</div>
+            <div onclick="updateMetric('customers', 'yearly')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Yearly</div>
+          </div>
+          <h2 id="customers-count" style="font-size: 32px; margin: 15px 0 5px 0; color: #212121;">3,120</h2>
+          <span id="customers-period" style="font-size: 12px; color: #e91e63; font-weight: 600;">Monthly Period</span>
+        </div>
+
+      </div>
+
+      <!-- Payment Status Overview Grid (Pink Theme) -->
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 25px;">
+        
+        <!-- Completed Payments Card -->
+        <div class="metric-card" style="background: #ffffff; padding: 24px; border-radius: 12px; border-left: 5px solid #d81b60; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <span style="color: #888; font-size: 14px; font-weight: 600;">COMPLETED PAYMENTS</span>
+            <span style="background: #fce4ec; color: #c2185b; padding: 4px 8px; border-radius: 6px; font-size: 12px; font-weight: bold;">✔ Success</span>
+          </div>
+          <h2 id="completed-payments-val" style="font-size: 32px; margin: 15px 0 5px 0; color: #c2185b;">₱0.00</h2>
+          <span id="completed-payments-count" style="font-size: 12px; color: #888;">0 orders completed</span>
+        </div>
+
+        <!-- Pending Payments Card -->
+        <div class="metric-card" style="background: #ffffff; padding: 24px; border-radius: 12px; border-left: 5px solid #f48fb1; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <span style="color: #888; font-size: 14px; font-weight: 600;">PENDING PAYMENTS</span>
+            <span style="background: #fff8e1; color: #f57f17; padding: 4px 8px; border-radius: 6px; font-size: 12px; font-weight: bold;">⏳ Pending</span>
+          </div>
+          <h2 id="pending-payments-val" style="font-size: 32px; margin: 15px 0 5px 0; color: #f57f17;">₱0.00</h2>
+          <span id="pending-payments-count" style="font-size: 12px; color: #888;">0 orders pending</span>
+        </div>
+
+        <!-- Failed Payments Card -->
+        <div class="metric-card" style="background: #ffffff; padding: 24px; border-radius: 12px; border-left: 5px solid #ad1457; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <span style="color: #888; font-size: 14px; font-weight: 600;">FAILED PAYMENTS</span>
+            <span style="background: #ffebee; color: #c62828; padding: 4px 8px; border-radius: 6px; font-size: 12px; font-weight: bold;">✖ Failed</span>
+          </div>
+          <h2 id="failed-payments-val" style="font-size: 32px; margin: 15px 0 5px 0; color: #c62828;">₱0.00</h2>
+          <span id="failed-payments-count" style="font-size: 12px; color: #888;">0 orders failed</span>
+        </div>
+
+      </div>
+
+      <!-- Analytics & Top Selling Grid Row -->
+      <div class="analytics-top-selling-grid" style="display: grid; grid-template-columns: 2fr 1fr; gap: 20px; margin-top: 25px;">
+        
+        <!-- Sales Analytics Card -->
+        <div class="analytics-card" style="background: #ffffff; padding: 24px; border-radius: 12px; position: relative; box-shadow: 0 4px 12px rgba(0,0,0,0.03); transition: background 0.3s ease;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+            <h3 style="margin: 0; font-size: 18px; font-weight: 700; color: #212121;" class="card-heading">Sales Analytics</h3>
+            
+            <div style="display: flex; align-items: center; gap: 10px;">
+              <!-- Zoom Controls -->
+              <div style="display: flex; gap: 4px; background: #f0f2f5; padding: 3px; border-radius: 6px;" class="zoom-controls">
+                <button onclick="zoomAnalytics(1.2)" style="border: none; background: #fff; border-radius: 4px; width: 26px; height: 26px; cursor: pointer; font-weight: bold; color: #d81b60; box-shadow: 0 1px 3px rgba(0,0,0,0.1);" title="Zoom In">+</button>
+                <button onclick="zoomAnalytics(0.8)" style="border: none; background: #fff; border-radius: 4px; width: 26px; height: 26px; cursor: pointer; font-weight: bold; color: #d81b60; box-shadow: 0 1px 3px rgba(0,0,0,0.1);" title="Zoom Out">−</button>
+                <button onclick="resetZoomAnalytics()" style="border: none; background: #fff; border-radius: 4px; padding: 0 6px; height: 26px; cursor: pointer; font-size: 11px; font-weight: bold; color: #666; box-shadow: 0 1px 3px rgba(0,0,0,0.1);" title="Reset Zoom">Reset</button>
+              </div>
+
+              <!-- Period Dropdown -->
+              <div style="position: relative;">
+                <button class="three-dots-btn" onclick="toggleMetricDropdown('sales-analytics-dropdown')" style="background: none; border: none; font-size: 20px; cursor: pointer; color: #888;">⋮</button>
+                <div class="dropdown-menu" id="sales-analytics-dropdown" style="display: none; position: absolute; right: 0; top: 30px; background: #fff; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); z-index: 10; width: 110px;">
+                  <div onclick="updateSalesAnalyticsPeriod('daily')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">This Daily</div>
+                  <div onclick="updateSalesAnalyticsPeriod('monthly')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">This Month</div>
+                  <div onclick="updateSalesAnalyticsPeriod('yearly')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">This Yearly</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Chart Container -->
+          <div id="analytics-viewport" style="overflow: hidden; width: 100%; position: relative;">
+            <div id="analytics-chart-wrapper" style="transform-origin: left center; transition: transform 0.2s ease; width: 100%; position: relative;">
+              <svg id="sales-svg" viewBox="0 0 600 240" style="width: 100%; height: auto; overflow: visible;">
+                <defs>
+                  <linearGradient id="pinkGradient" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%" stop-color="#e91e63" stop-opacity="0.4"/>
+                    <stop offset="100%" stop-color="#e91e63" stop-opacity="0.0"/>
+                  </linearGradient>
+                </defs>
+                <!-- Grid lines -->
+                <line x1="40" y1="30" x2="580" y2="30" stroke="#f0f0f0" class="chart-grid-line"/>
+                <line x1="40" y1="80" x2="580" y2="80" stroke="#f0f0f0" class="chart-grid-line"/>
+                <line x1="40" y1="130" x2="580" y2="130" stroke="#f0f0f0" class="chart-grid-line"/>
+                <line x1="40" y1="180" x2="580" y2="180" stroke="#f0f0f0" class="chart-grid-line"/>
+                
+                <!-- Area Fill & Main Line -->
+                <path id="sales-area" fill="url(#pinkGradient)" d="" />
+                <path id="sales-line" fill="none" stroke="#e91e63" stroke-width="3.5" d="" />
+                
+                <!-- Data Points & Hover Targets -->
+                <g id="sales-points"></g>
+                <!-- X-Axis Labels -->
+                <g id="sales-x-labels"></g>
+              </svg>
+
+              <!-- Custom Hover Tooltip -->
+              <div id="sales-tooltip" style="position: absolute; display: none; background: #e91e63; color: white; padding: 6px 12px; border-radius: 6px; font-size: 12px; font-weight: bold; pointer-events: none; transform: translate(-50%, -120%); box-shadow: 0 4px 10px rgba(233,30,99,0.3); z-index: 20; white-space: nowrap;">
+                <span id="tooltip-val">0</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Top Selling Card -->
+        <div class="top-selling-card" style="background: #ffffff; padding: 24px; border-radius: 12px; position: relative; box-shadow: 0 4px 12px rgba(0,0,0,0.03); transition: background 0.3s ease;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+            <h3 style="margin: 0; font-size: 18px; font-weight: 700; color: #212121;" class="card-heading">Top Selling</h3>
+            
+            <div style="position: relative;">
+              <button class="three-dots-btn" onclick="toggleMetricDropdown('top-selling-dropdown')" style="background: none; border: none; font-size: 20px; cursor: pointer; color: #888;">⋮</button>
+              <div class="dropdown-menu" id="top-selling-dropdown" style="display: none; position: absolute; right: 0; top: 30px; background: #fff; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); z-index: 10; width: 110px;">
+                <div onclick="updateTopSellingPeriod('daily')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">This Daily</div>
+                <div onclick="updateTopSellingPeriod('monthly')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">This Month</div>
+                <div onclick="updateTopSellingPeriod('yearly')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">This Yearly</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Top Selling Product List -->
+          <div id="top-selling-list" style="display: flex; flex-direction: column; gap: 16px;">
+            <!-- Rendered Dynamically via JS -->
+          </div>
+        </div>
+
+      </div>
+
+      <!-- LATEST ORDERS SECTION (Positioned Directly Under Sales Analytics & Top Selling) -->
+      <div class="latest-orders-card" style="background: #ffffff; padding: 24px; border-radius: 12px; margin-top: 25px; box-shadow: 0 4px 12px rgba(0,0,0,0.03); border-top: 4px solid #e91e63;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+          <div>
+            <h3 style="margin: 0; font-size: 18px; font-weight: 700; color: #212121;" class="card-heading">Latest Orders</h3>
+            <span style="font-size: 12px; color: #888;">Real-time synchronized orders from the store page</span>
+          </div>
+          <button onclick="renderLatestOrdersTable()" style="background: #fce4ec; color: #d81b60; border: none; padding: 8px 14px; border-radius: 6px; font-weight: bold; cursor: pointer; font-size: 12px;">🔄 Refresh Table</button>
+        </div>
+
+        <div style="overflow-x: auto;">
+          <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 14px;">
+            <thead>
+              <tr style="border-bottom: 2px solid #f0f0f0; color: #888;">
+                <th style="padding: 12px;">ORDER ID</th>
+                <th style="padding: 12px;">CUSTOMER</th>
+                <th style="padding: 12px;">PRODUCT(S)</th>
+                <th style="padding: 12px;">AMOUNT</th>
+                <th style="padding: 12px;">PAYMENT STATUS</th>
+                <th style="padding: 12px;">ACTION</th>
+              </tr>
+            </thead>
+            <tbody id="latest-orders-tbody">
+              <!-- Rendered Dynamically via JS -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+ <!-- SALES PAGE VIEW (Hidden by default; toggled via showAdminSales) -->
+<div id="admin-sales-view" style="display: none; padding: 30px;">
+  <!-- Metric Cards Row -->
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; margin-bottom: 30px;">
+    
+    <!-- 1. Anti-Biotics -->
+    <div class="metric-card" style="background: #ffffff; padding: 24px; border-radius: 12px; position: relative; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+      <div style="display: flex; justify-content: space-between; align-items: center;">
+        <span style="color: #888; font-size: 14px; font-weight: 600;">ANTI-BIOTICS</span>
+        <button class="three-dots-btn" onclick="toggleMetricDropdown('antibiotics-dropdown')" style="background: none; border: none; font-size: 20px; cursor: pointer; color: #888;">⋮</button>
+      </div>
+      <div class="dropdown-menu" id="antibiotics-dropdown" style="display: none; position: absolute; right: 20px; top: 50px; background: #fff; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); z-index: 10;">
+        <div onclick="updateSalesMetric('antibiotics', 'daily')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Daily</div>
+        <div onclick="updateSalesMetric('antibiotics', 'monthly')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Monthly</div>
+        <div onclick="updateSalesMetric('antibiotics', 'yearly')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Yearly</div>
+      </div>
+      <h2 id="antibiotics-count" style="font-size: 32px; margin: 15px 0 5px 0; color: #212121;">342</h2>
+      <span id="antibiotics-period" style="font-size: 12px; color: #e91e63; font-weight: 600;">Monthly Period</span>
+    </div>
+
+    <!-- 2. Total Profits -->
+    <div class="metric-card" style="background: #ffffff; padding: 24px; border-radius: 12px; position: relative; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+      <div style="display: flex; justify-content: space-between; align-items: center;">
+        <span style="color: #888; font-size: 14px; font-weight: 600;">TOTAL PROFITS</span>
+        <button class="three-dots-btn" onclick="toggleMetricDropdown('profits-dropdown')" style="background: none; border: none; font-size: 20px; cursor: pointer; color: #888;">⋮</button>
+      </div>
+      <div class="dropdown-menu" id="profits-dropdown" style="display: none; position: absolute; right: 20px; top: 50px; background: #fff; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); z-index: 10;">
+        <div onclick="updateSalesMetric('profits', 'daily')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Daily</div>
+        <div onclick="updateSalesMetric('profits', 'monthly')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Monthly</div>
+        <div onclick="updateSalesMetric('profits', 'yearly')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Yearly</div>
+      </div>
+      <h2 id="profits-count" style="font-size: 32px; margin: 15px 0 5px 0; color: #212121;">₱45,210.00</h2>
+      <span id="profits-period" style="font-size: 12px; color: #e91e63; font-weight: 600;">Monthly Period</span>
+    </div>
+
+    <!-- 3. Total Cost -->
+    <div class="metric-card" style="background: #ffffff; padding: 24px; border-radius: 12px; position: relative; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+      <div style="display: flex; justify-content: space-between; align-items: center;">
+        <span style="color: #888; font-size: 14px; font-weight: 600;">TOTAL COST</span>
+        <button class="three-dots-btn" onclick="toggleMetricDropdown('cost-dropdown')" style="background: none; border: none; font-size: 20px; cursor: pointer; color: #888;">⋮</button>
+      </div>
+      <div class="dropdown-menu" id="cost-dropdown" style="display: none; position: absolute; right: 20px; top: 50px; background: #fff; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); z-index: 10;">
+        <div onclick="updateSalesMetric('cost', 'daily')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Daily</div>
+        <div onclick="updateSalesMetric('cost', 'monthly')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Monthly</div>
+        <div onclick="updateSalesMetric('cost', 'yearly')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Yearly</div>
+      </div>
+      <h2 id="cost-count" style="font-size: 32px; margin: 15px 0 5px 0; color: #212121;">₱18,750.00</h2>
+      <span id="cost-period" style="font-size: 12px; color: #e91e63; font-weight: 600;">Monthly Period</span>
+    </div>
+
+    <!-- 4. Average Order Value -->
+    <div class="metric-card" style="background: #ffffff; padding: 24px; border-radius: 12px; position: relative; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+      <div style="display: flex; justify-content: space-between; align-items: center;">
+        <span style="color: #888; font-size: 14px; font-weight: 600;">AVERAGE ORDER VALUE</span>
+        <button class="three-dots-btn" onclick="toggleMetricDropdown('aov-dropdown')" style="background: none; border: none; font-size: 20px; cursor: pointer; color: #888;">⋮</button>
+      </div>
+      <div class="dropdown-menu" id="aov-dropdown" style="display: none; position: absolute; right: 20px; top: 50px; background: #fff; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); z-index: 10;">
+        <div onclick="updateSalesMetric('aov', 'daily')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Daily</div>
+        <div onclick="updateSalesMetric('aov', 'monthly')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Monthly</div>
+        <div onclick="updateSalesMetric('aov', 'yearly')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Yearly</div>
+      </div>
+      <h2 id="aov-count" style="font-size: 32px; margin: 15px 0 5px 0; color: #212121;">₱350.00</h2>
+      <span id="aov-period" style="font-size: 12px; color: #e91e63; font-weight: 600;">Monthly Period</span>
+    </div>
+
+  </div>
+
+  <!-- RECENT SALES SECTION (Copied from Dashboard's Latest Orders; synced with the main store page) -->
+  <div class="latest-orders-card" style="background: #ffffff; padding: 24px; border-radius: 12px; margin-top: 25px; box-shadow: 0 4px 12px rgba(0,0,0,0.03); border-top: 4px solid #e91e63;">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+      <div>
+        <h3 style="margin: 0; font-size: 18px; font-weight: 700; color: #212121;" class="card-heading">Recent Sales</h3>
+        <span style="font-size: 12px; color: #888;">Real-time synchronized orders from the store page</span>
+      </div>
+      <button onclick="renderRecentSalesTable()" style="background: #fce4ec; color: #d81b60; border: none; padding: 8px 14px; border-radius: 6px; font-weight: bold; cursor: pointer; font-size: 12px;">🔄 Refresh Table</button>
+    </div>
+
+    <div style="overflow-x: auto;">
+      <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 14px;">
+        <thead>
+          <tr style="border-bottom: 2px solid #f0f0f0; color: #888;">
+            <th style="padding: 12px;">ORDER ID</th>
+            <th style="padding: 12px;">CUSTOMER</th>
+            <th style="padding: 12px;">PRODUCT(S)</th>
+            <th style="padding: 12px;">AMOUNT</th>
+            <th style="padding: 12px;">PAYMENT STATUS</th>
+            <th style="padding: 12px;">ACTION</th>
+          </tr>
+        </thead>
+        <tbody id="recent-sales-tbody">
+          <!-- Rendered Dynamically via JS -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- ORDERS PAGE VIEW (Hidden by default; toggled via showAdminOrders) -->
+<div id="admin-orders-view" style="display: none; padding: 30px;">
+  <!-- Summary Cards Row -->
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; margin-bottom: 30px;">
+
+    <!-- 1. Total Orders -->
+    <div class="metric-card" style="background: #ffffff; padding: 24px; border-radius: 12px; position: relative; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+      <div style="display: flex; justify-content: space-between; align-items: center;">
+        <span style="color: #888; font-size: 14px; font-weight: 600;">TOTAL ORDERS</span>
+        <button class="three-dots-btn" onclick="toggleMetricDropdown('total-orders-dropdown')" style="background: none; border: none; font-size: 20px; cursor: pointer; color: #888;">⋮</button>
+      </div>
+      <div class="dropdown-menu" id="total-orders-dropdown" style="display: none; position: absolute; right: 20px; top: 50px; background: #fff; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); z-index: 10;">
+        <div onclick="updateOrderPageMetric('total-orders', 'daily')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Daily</div>
+        <div onclick="updateOrderPageMetric('total-orders', 'monthly')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Monthly</div>
+        <div onclick="updateOrderPageMetric('total-orders', 'yearly')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Yearly</div>
+      </div>
+      <h2 id="total-orders-count" style="font-size: 32px; margin: 15px 0 5px 0; color: #212121;">2,200</h2>
+      <span id="total-orders-period" style="font-size: 12px; color: #e91e63; font-weight: 600;">Monthly Period</span>
+    </div>
+
+    <!-- 2. Completed Orders -->
+    <div class="metric-card" style="background: #ffffff; padding: 24px; border-radius: 12px; position: relative; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+      <div style="display: flex; justify-content: space-between; align-items: center;">
+        <span style="color: #888; font-size: 14px; font-weight: 600;">COMPLETED ORDERS</span>
+        <button class="three-dots-btn" onclick="toggleMetricDropdown('completed-orders-dropdown')" style="background: none; border: none; font-size: 20px; cursor: pointer; color: #888;">⋮</button>
+      </div>
+      <div class="dropdown-menu" id="completed-orders-dropdown" style="display: none; position: absolute; right: 20px; top: 50px; background: #fff; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); z-index: 10;">
+        <div onclick="updateOrderPageMetric('completed-orders', 'daily')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Daily</div>
+        <div onclick="updateOrderPageMetric('completed-orders', 'monthly')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Monthly</div>
+        <div onclick="updateOrderPageMetric('completed-orders', 'yearly')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Yearly</div>
+      </div>
+      <h2 id="completed-orders-count" style="font-size: 32px; margin: 15px 0 5px 0; color: #212121;">1,025</h2>
+      <span id="completed-orders-period" style="font-size: 12px; color: #e91e63; font-weight: 600;">Monthly Period</span>
+    </div>
+
+    <!-- 3. Pending Orders -->
+    <div class="metric-card" style="background: #ffffff; padding: 24px; border-radius: 12px; position: relative; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+      <div style="display: flex; justify-content: space-between; align-items: center;">
+        <span style="color: #888; font-size: 14px; font-weight: 600;">PENDING ORDERS</span>
+        <button class="three-dots-btn" onclick="toggleMetricDropdown('pending-orders-dropdown')" style="background: none; border: none; font-size: 20px; cursor: pointer; color: #888;">⋮</button>
+      </div>
+      <div class="dropdown-menu" id="pending-orders-dropdown" style="display: none; position: absolute; right: 20px; top: 50px; background: #fff; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); z-index: 10;">
+        <div onclick="updateOrderPageMetric('pending-orders', 'daily')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Daily</div>
+        <div onclick="updateOrderPageMetric('pending-orders', 'monthly')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Monthly</div>
+        <div onclick="updateOrderPageMetric('pending-orders', 'yearly')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Yearly</div>
+      </div>
+      <h2 id="pending-orders-count" style="font-size: 32px; margin: 15px 0 5px 0; color: #212121;">225</h2>
+      <span id="pending-orders-period" style="font-size: 12px; color: #e91e63; font-weight: 600;">Monthly Period</span>
+    </div>
+
+    <!-- 4. Cancelled Orders -->
+    <div class="metric-card" style="background: #ffffff; padding: 24px; border-radius: 12px; position: relative; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+      <div style="display: flex; justify-content: space-between; align-items: center;">
+        <span style="color: #888; font-size: 14px; font-weight: 600;">CANCELLED ORDERS</span>
+        <button class="three-dots-btn" onclick="toggleMetricDropdown('cancelled-orders-dropdown')" style="background: none; border: none; font-size: 20px; cursor: pointer; color: #888;">⋮</button>
+      </div>
+      <div class="dropdown-menu" id="cancelled-orders-dropdown" style="display: none; position: absolute; right: 20px; top: 50px; background: #fff; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); z-index: 10;">
+        <div onclick="updateOrderPageMetric('cancelled-orders', 'daily')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Daily</div>
+        <div onclick="updateOrderPageMetric('cancelled-orders', 'monthly')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Monthly</div>
+        <div onclick="updateOrderPageMetric('cancelled-orders', 'yearly')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Yearly</div>
+      </div>
+      <h2 id="cancelled-orders-count" style="font-size: 32px; margin: 15px 0 5px 0; color: #212121;">10</h2>
+      <span id="cancelled-orders-period" style="font-size: 12px; color: #e91e63; font-weight: 600;">Monthly Period</span>
+    </div>
+
+  </div>
+
+  <!-- Order List (display-only: no action buttons/handlers, per request) -->
+  <div class="latest-orders-card" style="background: #ffffff; padding: 24px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.03); border-top: 4px solid #e91e63;">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+      <div>
+        <h3 style="margin: 0; font-size: 18px; font-weight: 700; color: #212121;" class="card-heading">Order List</h3>
+        <span style="font-size: 12px; color: #888;">Real-time synchronized orders from the store page</span>
+      </div>
+      <button onclick="renderOrderListTable()" style="background: #fce4ec; color: #d81b60; border: none; padding: 8px 14px; border-radius: 6px; font-weight: bold; cursor: pointer; font-size: 12px;">🔄 Refresh Table</button>
+    </div>
+
+    <div style="overflow-x: auto;">
+      <table class="order-list-table" style="width: 100%; border-collapse: collapse; text-align: left; font-size: 14px;">
+        <thead>
+          <tr style="border-bottom: 2px solid #f0f0f0; color: #888;">
+            <th style="padding: 12px;">ORDER ID</th>
+            <th style="padding: 12px;">CUSTOMER NAME</th>
+            <th style="padding: 12px;">ORDER DATE</th>
+            <th style="padding: 12px;">PRODUCT ORDERED</th>
+            <th style="padding: 12px;">TOTAL PRICE</th>
+            <th style="padding: 12px;">PAYMENT STATUS</th>
+            <th style="padding: 12px;">ORDER STATUS</th>
+            <th style="padding: 12px;">ACTION</th>
+          </tr>
+        </thead>
+        <tbody id="order-list-tbody">
+          <!-- Rendered Dynamically via JS (view-only, no action handlers) -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- PRODUCTS PAGE VIEW (Hidden by default; toggled via showAdminProducts) -->
+<div id="admin-products-view" style="display: none; padding: 30px;">
+  <!-- Summary Cards Row -->
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; margin-bottom: 25px;">
+
+    <!-- 1. Total Products -->
+    <div class="metric-card" style="background: #ffffff; padding: 22px 24px; border-radius: 12px; position: relative; box-shadow: 0 4px 12px rgba(0,0,0,0.03); display: flex; align-items: center; gap: 16px;">
+      <div style="width: 44px; height: 44px; border-radius: 50%; background: #f1f2f6; display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0;">📦</div>
+      <div style="flex: 1;">
+        <span style="color: #888; font-size: 13px; font-weight: 600;">Total Products</span>
+        <h2 id="total-products-count" style="font-size: 26px; margin: 4px 0 0 0; color: #212121;">20,120</h2>
+      </div>
+      <button class="three-dots-btn" onclick="toggleMetricDropdown('total-products-dropdown')" style="background: none; border: none; font-size: 20px; cursor: pointer; color: #888; align-self: flex-start;">⋮</button>
+      <div class="dropdown-menu" id="total-products-dropdown" style="display: none; position: absolute; right: 20px; top: 50px; background: #fff; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); z-index: 10;">
+        <div onclick="updateProductMetric('total-products', 'daily')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Daily</div>
+        <div onclick="updateProductMetric('total-products', 'monthly')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Monthly</div>
+        <div onclick="updateProductMetric('total-products', 'yearly')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Yearly</div>
+      </div>
+    </div>
+
+    <!-- 2. Low Stock -->
+    <div class="metric-card" style="background: #ffffff; padding: 22px 24px; border-radius: 12px; position: relative; box-shadow: 0 4px 12px rgba(0,0,0,0.03); display: flex; align-items: center; gap: 16px;">
+      <div style="width: 44px; height: 44px; border-radius: 50%; background: #fff3cd; display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0;">⚠️</div>
+      <div style="flex: 1;">
+        <span style="color: #888; font-size: 13px; font-weight: 600;">Low Stock</span>
+        <h2 id="low-stock-count" style="font-size: 26px; margin: 4px 0 0 0; color: #212121;">120</h2>
+      </div>
+      <button class="three-dots-btn" onclick="toggleMetricDropdown('low-stock-dropdown')" style="background: none; border: none; font-size: 20px; cursor: pointer; color: #888; align-self: flex-start;">⋮</button>
+      <div class="dropdown-menu" id="low-stock-dropdown" style="display: none; position: absolute; right: 20px; top: 50px; background: #fff; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); z-index: 10;">
+        <div onclick="updateProductMetric('low-stock', 'daily')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Daily</div>
+        <div onclick="updateProductMetric('low-stock', 'monthly')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Monthly</div>
+        <div onclick="updateProductMetric('low-stock', 'yearly')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Yearly</div>
+      </div>
+    </div>
+
+    <!-- 3. Out Of Stock -->
+    <div class="metric-card" style="background: #ffffff; padding: 22px 24px; border-radius: 12px; position: relative; box-shadow: 0 4px 12px rgba(0,0,0,0.03); display: flex; align-items: center; gap: 16px;">
+      <div style="width: 44px; height: 44px; border-radius: 50%; background: #fde3e3; display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0;">❌</div>
+      <div style="flex: 1;">
+        <span style="color: #888; font-size: 13px; font-weight: 600;">Out Of Stock</span>
+        <h2 id="out-of-stock-count" style="font-size: 26px; margin: 4px 0 0 0; color: #212121;">80</h2>
+      </div>
+      <button class="three-dots-btn" onclick="toggleMetricDropdown('out-of-stock-dropdown')" style="background: none; border: none; font-size: 20px; cursor: pointer; color: #888; align-self: flex-start;">⋮</button>
+      <div class="dropdown-menu" id="out-of-stock-dropdown" style="display: none; position: absolute; right: 20px; top: 50px; background: #fff; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); z-index: 10;">
+        <div onclick="updateProductMetric('out-of-stock', 'daily')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Daily</div>
+        <div onclick="updateProductMetric('out-of-stock', 'monthly')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Monthly</div>
+        <div onclick="updateProductMetric('out-of-stock', 'yearly')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Yearly</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Category Cards Grid (rendered dynamically) -->
+  <div id="product-category-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 20px; margin-bottom: 25px;">
+    <!-- Rendered Dynamically via JS -->
+  </div>
+
+  <!-- Product List Table -->
+  <div class="latest-orders-card" style="background: #ffffff; padding: 24px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.03); border-top: 4px solid #e91e63;">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+      <div>
+        <h3 style="margin: 0; font-size: 18px; font-weight: 700; color: #212121;" class="card-heading">Product List</h3>
+        <span style="font-size: 12px; color: #888;">Full inventory across all categories</span>
+      </div>
+      <button onclick="renderProductListTable()" style="background: #fce4ec; color: #d81b60; border: none; padding: 8px 14px; border-radius: 6px; font-weight: bold; cursor: pointer; font-size: 12px;">🔄 Refresh Table</button>
+    </div>
+
+    <div style="overflow-x: auto;">
+      <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 14px;">
+        <thead>
+          <tr style="border-bottom: 2px solid #f0f0f0; color: #888;">
+            <th style="padding: 12px;">PRODUCT ID</th>
+            <th style="padding: 12px;">PRODUCT NAME</th>
+            <th style="padding: 12px;">CATEGORY</th>
+            <th style="padding: 12px;">STOCK</th>
+            <th style="padding: 12px;">PRICE</th>
+            <th style="padding: 12px;">STATUS</th>
+          </tr>
+        </thead>
+        <tbody id="product-list-tbody">
+          <!-- Rendered Dynamically via JS -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- PAYMENTS PAGE VIEW (Hidden by default; toggled via showAdminPayments) -->
+<div id="admin-payments-view" style="display: none; padding: 30px;">
+  <!-- Summary Cards Row -->
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; margin-bottom: 25px;">
+
+    <!-- 1. Completed Payment -->
+    <div class="metric-card" style="background: #ffffff; padding: 22px 24px; border-radius: 12px; position: relative; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+      <div style="display: flex; align-items: center; gap: 12px;">
+        <div style="width: 34px; height: 34px; border-radius: 50%; background: #d7f5df; display: flex; align-items: center; justify-content: center; font-size: 16px;">✅</div>
+        <span style="color: #333; font-size: 15px; font-weight: 700; flex: 1;">Completed Payment</span>
+        <button class="three-dots-btn" onclick="toggleMetricDropdown('completed-payment-dropdown')" style="background: none; border: none; font-size: 20px; cursor: pointer; color: #888;">⋮</button>
+      </div>
+      <div class="dropdown-menu" id="completed-payment-dropdown" style="display: none; position: absolute; right: 20px; top: 55px; background: #fff; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); z-index: 10;">
+        <div onclick="updatePaymentMetric('completed-payment', 'daily')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Daily</div>
+        <div onclick="updatePaymentMetric('completed-payment', 'monthly')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Monthly</div>
+        <div onclick="updatePaymentMetric('completed-payment', 'yearly')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Yearly</div>
+      </div>
+      <div id="completed-payment-revenue" style="font-size: 13px; color: #666; margin-top: 14px;">Revenue: $25,000</div>
+      <h2 id="completed-payment-count" style="font-size: 30px; margin: 4px 0 6px 0; color: #212121;">200</h2>
+      <span id="completed-payment-period" style="font-size: 12px; color: #888;">Since Last Week</span>
+    </div>
+
+    <!-- 2. Pending Payments -->
+    <div class="metric-card" style="background: #ffffff; padding: 22px 24px; border-radius: 12px; position: relative; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+      <div style="display: flex; align-items: center; gap: 12px;">
+        <div style="width: 34px; height: 34px; border-radius: 50%; background: #fff3cd; display: flex; align-items: center; justify-content: center; font-size: 16px;">⚠️</div>
+        <span style="color: #333; font-size: 15px; font-weight: 700; flex: 1;">Pending Payments</span>
+        <button class="three-dots-btn" onclick="toggleMetricDropdown('pending-payment-dropdown')" style="background: none; border: none; font-size: 20px; cursor: pointer; color: #888;">⋮</button>
+      </div>
+      <div class="dropdown-menu" id="pending-payment-dropdown" style="display: none; position: absolute; right: 20px; top: 55px; background: #fff; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); z-index: 10;">
+        <div onclick="updatePaymentMetric('pending-payment', 'daily')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Daily</div>
+        <div onclick="updatePaymentMetric('pending-payment', 'monthly')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Monthly</div>
+        <div onclick="updatePaymentMetric('pending-payment', 'yearly')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Yearly</div>
+      </div>
+      <div id="pending-payment-revenue" style="font-size: 13px; color: #666; margin-top: 14px;">Revenue: $10,000</div>
+      <h2 id="pending-payment-count" style="font-size: 30px; margin: 4px 0 6px 0; color: #212121;">40</h2>
+      <span id="pending-payment-period" style="font-size: 12px; color: #888;">Since Last Week</span>
+    </div>
+
+    <!-- 3. Failed Payments -->
+    <div class="metric-card" style="background: #ffffff; padding: 22px 24px; border-radius: 12px; position: relative; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+      <div style="display: flex; align-items: center; gap: 12px;">
+        <div style="width: 34px; height: 34px; border-radius: 50%; background: #fde3e3; display: flex; align-items: center; justify-content: center; font-size: 16px;">❌</div>
+        <span style="color: #333; font-size: 15px; font-weight: 700; flex: 1;">Failed Payments</span>
+        <button class="three-dots-btn" onclick="toggleMetricDropdown('failed-payment-dropdown')" style="background: none; border: none; font-size: 20px; cursor: pointer; color: #888;">⋮</button>
+      </div>
+      <div class="dropdown-menu" id="failed-payment-dropdown" style="display: none; position: absolute; right: 20px; top: 55px; background: #fff; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); z-index: 10;">
+        <div onclick="updatePaymentMetric('failed-payment', 'daily')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Daily</div>
+        <div onclick="updatePaymentMetric('failed-payment', 'monthly')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Monthly</div>
+        <div onclick="updatePaymentMetric('failed-payment', 'yearly')" style="padding: 8px 16px; cursor: pointer; font-size: 13px;">Yearly</div>
+      </div>
+      <div id="failed-payment-revenue" style="font-size: 13px; color: #666; margin-top: 14px;">Revenue: $5,000</div>
+      <h2 id="failed-payment-count" style="font-size: 30px; margin: 4px 0 6px 0; color: #212121;">5</h2>
+      <span id="failed-payment-period" style="font-size: 12px; color: #888;">Since Last Week</span>
+    </div>
+  </div>
+
+  <!-- Payment Lists Table -->
+  <div class="latest-orders-card" style="background: #ffffff; padding: 24px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.03); border-top: 4px solid #e91e63;">
+    <h3 style="margin: 0 0 18px 0; font-size: 20px; font-weight: 800; color: #212121;" class="card-heading">Payment Lists</h3>
+
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; flex-wrap: wrap; gap: 10px;">
+      <div style="font-size: 13px; color: #666;">
+        Show
+        <select id="payment-entries-select" onchange="renderPaymentListTable()" style="margin: 0 6px; padding: 4px 8px; border-radius: 6px; border: 1px solid #ddd;">
+          <option value="10">10</option>
+          <option value="25">25</option>
+          <option value="50">50</option>
+          <option value="1000">All</option>
+        </select>
+        entries
+      </div>
+      <div style="font-size: 13px; color: #666; display: flex; align-items: center; gap: 8px;">
+        Search:
+        <input type="text" id="payment-search-input" oninput="renderPaymentListTable()" placeholder="" style="padding: 6px 10px; border-radius: 6px; border: 1px solid #ddd; font-size: 13px;">
+      </div>
+    </div>
+
+    <div style="overflow-x: auto;">
+      <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 14px;">
+        <thead>
+          <tr style="border-bottom: 2px solid #f0f0f0; color: #888;">
+            <th style="padding: 12px;">ORDER ID</th>
+            <th style="padding: 12px;">CUSTOMER NAME</th>
+            <th style="padding: 12px;">ORDER DATE</th>
+            <th style="padding: 12px;">PRODUCT ORDERED</th>
+            <th style="padding: 12px;">TOTAL PRICE</th>
+            <th style="padding: 12px;">TRANSACTION ID</th>
+            <th style="padding: 12px;">ORDER STATUS</th>
+            <th style="padding: 12px;">ACTION</th>
+          </tr>
+        </thead>
+        <tbody id="payment-list-tbody">
+          <!-- Rendered Dynamically via JS -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+  </main>
+
+</div>
+
+</body>
+
+</html>
